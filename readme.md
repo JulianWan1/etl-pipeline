@@ -14,6 +14,9 @@
 
 ## **Overview**
 
+![Screenshot 2024-12-19 at 3 23 14 PM](https://github.com/user-attachments/assets/fb4c7b60-ed51-4a26-8edc-e3e5acbf187b)
+
+
 A simple ETL Pipeline that:
 
 - Stores the last 6 months of commits from any Github Repo in a PostgreSQL database(Tested with Apache Airflow GH Repo)
