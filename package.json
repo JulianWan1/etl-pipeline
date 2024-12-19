@@ -1,0 +1,22 @@
+{
+  "name": "etl-pipeline",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "",
+  "author": "",
+  "private": true,
+  "license": "UNLICENSED",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "chartjs-chart-matrix": "^2.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "node-fetch": "^3.3.2",
+    "pg": "^8.13.1"
+  },
+  "scripts": {
+    "setup-db": "node database/setup-db.js",
+    "start": "node app.js"
+  }
+}
