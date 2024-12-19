@@ -82,7 +82,7 @@ function initializeHeatmap(heatmapData) {
       plugins: {
         title: {
           display: true,
-          text: "Heatmap of Commits from Apache Airflow Github Repo of Each Day of the Week of Every 3 Hours of the Day (Past 6 Months)",
+          text: "Heatmap of Commits from Github Repo of Each Day of the Week of Every 3 Hours of the Day (Past 6 Months)",
         },
         tooltip: {
           callbacks: {
